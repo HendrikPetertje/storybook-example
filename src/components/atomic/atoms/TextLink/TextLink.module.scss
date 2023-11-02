@@ -1,0 +1,15 @@
+.link {
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  color: varl(--color-black);
+}
+
+.primary {
+  color: var(--color-blue);
+  border-bottom-color: var(--color-blue);
+}
+
+.secondary {
+  color: var(--color-red);
+  border-bottom-color: var(--color-red);
+}
