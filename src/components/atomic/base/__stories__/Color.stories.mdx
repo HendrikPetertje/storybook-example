@@ -1,0 +1,24 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import '~base/Base.module.scss';
+
+<Meta title="0. Base/1. Colors" component={<></>}/>
+
+# Colors
+This is the color space!
+
+<ColorPalette>
+  <ColorItem
+    title="Black and White"
+    colors={{
+      White: 'var(--color-white)',
+      black: 'var(--color-black)',
+    }}
+  />
+  <ColorItem
+    title="Other colors"
+    colors={{
+      blue: 'var(--color-blue)',
+      red: 'var(--color-red)',
+    }}
+  />
+</ColorPalette>
